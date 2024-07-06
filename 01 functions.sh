@@ -16,3 +16,4 @@ SAMPLE
 DEMO() {
   echo First Argument - $1
 }
+DEMO abc
