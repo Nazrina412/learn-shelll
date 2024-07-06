@@ -9,3 +9,6 @@ how to call a functions simple call the function like a command
 SAMPLE() {
   echo SAMPLE FUNCTIONS
 }
+
+SAMPLE
+SAMPLE
