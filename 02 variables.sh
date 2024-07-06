@@ -36,6 +36,8 @@ echo Value of y from CLI - $y
 # Approach 2 - bash 03-variables.sh 100 200  ( These variables $1, $2 .. $n, $*, $# are called as special variables in shell)
 echo First argument - $1
 echo Second argument -$2
+echo All Argument - $*
+echo Argument Count - $#
 
   ;;
 esac
