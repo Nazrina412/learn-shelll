@@ -39,6 +39,6 @@ echo Second argument -$2
 echo All Argument - $*
 echo Argument Count - $#
 
-  ;;
-esac
+# Approach 3 - export z=500 ; bash 03-variables.sh
+echo Environment variable z - $z
 
