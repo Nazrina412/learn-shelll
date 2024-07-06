@@ -14,6 +14,6 @@ SAMPLE
 SAMPLE
 
 DEMO() {
-  echo First Argument -$1
+  echo First Argument - $1
 }
  Demo abc
