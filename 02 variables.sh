@@ -14,3 +14,16 @@ echo ${name} Training - Faculty ${faculty}
 apple=20
 echo Apple price - ${apple}Dollars
 
+# Variable Substitutions
+# Command Substitution  - You can declare a variable by executing a command and store the ouptut in a variable
+# Syntax : var=$(command)
+
+# Arithmetic Substitution  - You can declare a variable by solving the given arithmetic expression
+# syntax: var=$((1+2-3/4))
+
+date=$(date)
+echo Today date is - $date
+
+add=$((2+3+4))
+echo 2+3+4 -$add
+
